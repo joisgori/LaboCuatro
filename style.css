@@ -1,0 +1,88 @@
+h1{
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h2{
+    padding-left: 8px;
+}
+
+.rojo{
+    border-bottom: 2px solid #f56a6a;
+    display: inline;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    border-bottom-width: 5px;
+}
+
+span{
+    font-style: bold;
+    color: black;
+}
+
+.Titulo{
+    font-size: 0.9em;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #7f888f;/*
+    display: flex;
+    justify-content: flex-start;*/
+}
+
+hr{
+    border: 2px solid #f56a6a;
+}
+
+.grisd{
+    border: 0.6px solid #babcbd;
+}
+
+button{
+    border-radius: 12px;
+    border: 2px solid #f56a6a;
+    color: #f56a6a;
+    padding: 0.65em;
+    background-color: white;
+}
+
+button:hover{
+    background: green;
+}
+
+.flotar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagen{
+    width: 450px;
+    height: 275px;
+}
+
+ul li{
+    display: inline; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#grid div {
+    display: flex;
+    justify-content: center;
+}
+
+#grid{
+    margin: 2em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+}
+
+.iconos{
+    align-items: center;
+}
